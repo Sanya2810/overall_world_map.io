@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 5em;
+}
+.marks .land {
+  fill: #8d8d89;
+}
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules, .tick line {
+  fill: none;
+  stroke: #dadada;
+}
+circle {
+  opacity: 0.8;
+}
+.axis-label {
+  font-size: 1em;
+  fill: #635F5D;
+}
+.text text {
+  fill: #635F5D;
+  cursor: default;
+}
+.info {
+  font-size: .9em;
+  fill: #2b2a2a;
+}
+.Dropdown-root {
+  font-size: 0.9em;
+  width: 400px;
+  display: inline-block;
+}
+.Dropdown-menu {
+  max-height: 400px;
+}
+.dropdown-label {
+  font-size: 0.8em;
+  fill: #635F5D;
+  color: #635F5D;
+}
+.menus-container {
+  margin-top: 10px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tick text {
+  fill: #0c0c0c;
+  font-size: 0.45em;
+}
+.mark {
+  fill: #2d8b97;
+}
+.axis-label-histogram {
+  font-size: 0.6em;
+  fill: #050505;
+}
+
